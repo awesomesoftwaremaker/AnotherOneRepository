@@ -15,7 +15,6 @@ int main()
 }
 */
 //ќчевидно, что написанный код - мой, никакого подвоха
-//#pragma hdrstop
 #include <stdio.h>
 #include <conio.h>
 #include <math.h>

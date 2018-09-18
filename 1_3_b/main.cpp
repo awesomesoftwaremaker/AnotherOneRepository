@@ -1,38 +1,18 @@
-/*#include <iostream>
-
-using namespace std;
-
-int main()
-{
-    float Array [4][4] = {1.7, 0.0003, 0.0004, 0.0005, 0.0, 0.8, 0.0001, 0.0002, -0.0003, -0.0002, -0.1, 0.0, -0.0005, -0.0004, -0.0003, -1.0};
-
-    float Brray [4] = {0.681, 0.4803, -0.802, -1.0007};
-
-    float Xrray [4][4] = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
-
-    cout << Array[3][3] << endl << Brray[3] << endl << Xrray [3][3] << "123123123";
-
-}
-*/
-//Очевидно, что написанный код - мой, никакого подвоха
 #include <stdio.h>
-#include <conio.h>
 #include <math.h>
 
-
-const int n = 4;
+int n = 4;
 
 float A[n][n] = {1.7, 0.0003, 0.0004, 0.0005, 0.0, 0.8, 0.0001, 0.0002, -0.0003, -0.0002, -0.1, 0.0, -0.0005, -0.0004, -0.0003, -1.0};
 
 float B[n] = {0.681, 0.4803, -0.802, -1.0007};
-
 float X[30][n] = {0};
 float TEST[n];
 float summ;
 float eps;
 int k = 0;
 
-
+//Условие окончания работы программы
 bool ExitFunc(float eps)
 {
     if(k == 0) return true;
@@ -45,7 +25,7 @@ bool ExitFunc(float eps)
 
 int main()
 {
-    printf("Enter eps:");
+    printf("Enter eps:");//Взятие погрешности
     scanf("%f", &eps);
     do {
         for(int i = 0; i < n; i++) {
@@ -71,5 +51,4 @@ int main()
     }
 
     printf("\nIterations:\n%i", k);
-    getch();
 }

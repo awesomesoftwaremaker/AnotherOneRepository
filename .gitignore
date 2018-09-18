@@ -1,0 +1,7 @@
+
+*.user
+*.stash
+1_3_b/build-1_3_b-Desktop_Qt_5_10_1_MinGW_32bit-Debug/Makefile
+1_3_b/build-1_3_b-Desktop_Qt_5_10_1_MinGW_32bit-Debug/Makefile.Debug
+1_3_b/build-1_3_b-Desktop_Qt_5_10_1_MinGW_32bit-Debug/Makefile.Release
+1_3_b/build-1_3_b-Desktop_Qt_5_10_1_MinGW_32bit-Debug/debug/main.o
